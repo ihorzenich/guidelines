@@ -11,6 +11,14 @@ In short:
 4. New line for everything
 5. Omit the protocol from embedded resources.
 
+## Naming Conversions for files
+### Images
+Images should placed in their block folder.
+Image name formula: `blockName--suffix.ext`, where suffix is:
+- `bg` for backgrounds
+- `btn` for buttons
+- `temp` for temporary files
+- and so on.
 
 # CSS
 ## Formatting Rules
@@ -23,6 +31,7 @@ In short:
 
 ## Naming Conversions
 We use BEM CSS in [Harry Roberts](http://cssguidelin.es/#bem-like-naming) style with camelCase syntax and default `b-` prefix (for namespace reason).
+We use some grids: in html and by [`@extend`](https://www.sitepoint.com/sass-semantically-extend-bootstrap/), also we use [csswizardry-grids](https://github.com/csswizardry/csswizardry-grids) naming classes: `grid` and `grid__item`.
 
 
 # JS
@@ -35,3 +44,4 @@ We use camelCase.
 
 P.S.
 Be consistent.
+
